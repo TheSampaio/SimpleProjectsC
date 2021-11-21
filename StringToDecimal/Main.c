@@ -16,10 +16,10 @@ int main()
         i++;
     }
 
-    printf("\nA palavra digitada foi %s", word);
-    printf(" e de acordo com a tabela ASCII seu valor em decimal e:\n\n");
+    printf("\nThe typed word was '%s", word);
+    printf("' and acording with ASCII table, the caracter's decimal values is:\n\n");
 
-    for(j = 0; j < i - 1; j++)
+    for(j = 0; j < i; j++)
     {
         printf(" %d", letterList[j]);
     }
